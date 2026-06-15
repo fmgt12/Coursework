@@ -5,7 +5,7 @@ namespace Agent
 {
     public class Program
     {
-        private static string connectionString = "Server=localhost;Port=5432;User ID=postgres;Password=3455;Database=Kurs;";
+        private static string connectionString = "Server=localhost;Port=5432;User ID=postgres;Password=3455;Database=Coursework;";
         private static bool continuousMode = false;
         private static int intervalSeconds = 60;
 

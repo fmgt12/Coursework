@@ -1,16 +1,15 @@
 ﻿using System.Diagnostics;
 using System.IO.Compression;
 using System.Text.Json;
-using System.Threading.Tasks;
 namespace Launcher
 {
     public class Program
     {
-        private static readonly string Github_repozitory = "punochka/Coursework3";
+        private static readonly string Github_repozitory = "fmgt12/CourseworkAndrew";
         private static readonly string Github_API_URL = $"https://api.github.com/repos/{Github_repozitory}/releases/latest";
         private static readonly string current_version = "1.0.0";
         private static readonly string dextop_path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-        private static readonly string update_folder = Path.Combine(dextop_path, "Coursework3_Update");
+        private static readonly string update_folder = Path.Combine(dextop_path, "Coursework_Update");
         static void Main(string[] args)
         {
             while (true)
