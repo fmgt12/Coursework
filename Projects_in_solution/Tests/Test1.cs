@@ -8,7 +8,7 @@ namespace Tests
     [TestClass]
     public class IntegrationTests
     {
-        private static string testConnectionString = "Server=localhost;Port=5432;User ID=postgres;Password=3455;Database=Kurs;";
+        private static string testConnectionString = "Server=localhost;Port=5432;User ID=postgres;Password=3455;Database=Coursework;";
         private string testUser;
         private readonly string testPass = "testpass123";
         private int userId;

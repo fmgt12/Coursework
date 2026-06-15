@@ -11,7 +11,7 @@ namespace Coursework
         static int currentUserId = -1;
         static string currentUsername = "";
         static int currentUserRole = -1;
-        private static string connectionString = "Server=localhost;Port=5432;User ID=postgres;Password=3455;Database=Kurs;";
+        private static string connectionString = "Server=localhost;Port=5432;User ID=postgres;Password=3455;Database=Coursework;";
 
         #endregion
 
