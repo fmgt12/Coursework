@@ -100,13 +100,11 @@ namespace Agent
                 double cpu = GetCpuUsage();
                 var (ramUsed, ramTotal, ramPercent) = GetRamUsage();
                 var (hddFree, hddTotal, hddPercent) = GetHddUsage();
-
                 Console.WriteLine($"=== СТАТИСТИКА {DateTime.Now:HH:mm:ss} ===");
                 Console.WriteLine("─────────────────────────────────────────────────");
                 Console.WriteLine($"CPU:  {cpu,6:F1}%");
                 Console.WriteLine($"RAM:  {ramPercent,6:F1}%  ({ramUsed} МБ / {ramTotal} МБ)");
                 Console.WriteLine($"HDD:  {hddPercent,6:F1}%  (Свободно: {hddFree:F2} ГБ / {hddTotal:F2} ГБ)");
-
                 SaveStatsToDb(cpu, ramUsed, hddFree);
                 Console.WriteLine("! Статистика сохранена в БД.");
                 Console.WriteLine("─────────────────────────────────────────────────\n");
