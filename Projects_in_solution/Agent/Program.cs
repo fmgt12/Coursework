@@ -103,7 +103,6 @@ namespace Agent
 
                 Console.WriteLine($"=== СТАТИСТИКА {DateTime.Now:HH:mm:ss} ===");
                 Console.WriteLine("─────────────────────────────────────────────────");
-                // Только проценты, без графической полосы
                 Console.WriteLine($"CPU:  {cpu,6:F1}%");
                 Console.WriteLine($"RAM:  {ramPercent,6:F1}%  ({ramUsed} МБ / {ramTotal} МБ)");
                 Console.WriteLine($"HDD:  {hddPercent,6:F1}%  (Свободно: {hddFree:F2} ГБ / {hddTotal:F2} ГБ)");
