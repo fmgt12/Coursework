@@ -8,4 +8,10 @@
     <BaseOutputPath>F:\CourseworkAndrew\Build</BaseOutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="10.0.2" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="10.0.9" />
+    <PackageReference Include="System.Management" Version="10.0.9" />
+  </ItemGroup>
+
 </Project>
